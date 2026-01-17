@@ -2,6 +2,7 @@ package com.example.coupon.app;
 
 import com.example.coupon.domain.Coupon;
 import com.example.coupon.infra.persistence.jpa.CouponJpaRepository;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
