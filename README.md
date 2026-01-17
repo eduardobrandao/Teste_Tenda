@@ -1,7 +1,6 @@
 # coupon-service
 
 Spring Boot 3 (Java 17) API para gerenciamento de cupons com:
-- Regras de negocio encapsuladas no dominio
 - H2 em memoria
 - Soft delete
 - Swagger/OpenAPI
