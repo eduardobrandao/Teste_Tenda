@@ -1,0 +1,14 @@
+com\example\coupon\domain\value\CouponCode.class
+com\example\coupon\api\CouponController.class
+com\example\coupon\infra\persistence\jpa\CouponJpaRepository.class
+com\example\coupon\domain\Coupon.class
+com\example\coupon\api\dto\CouponResponse.class
+com\example\coupon\CouponApplication.class
+com\example\coupon\infra\http\ExternalCouponClient.class
+com\example\coupon\domain\value\ExpirationDate.class
+com\example\coupon\app\mapper\CouponMapper.class
+com\example\coupon\infra\persistence\CouponEntity.class
+com\example\coupon\api\dto\CreateCouponRequest.class
+com\example\coupon\domain\value\DiscountValue.class
+com\example\coupon\app\CouponAppService.class
+com\example\coupon\api\RestExceptionHandler.class
