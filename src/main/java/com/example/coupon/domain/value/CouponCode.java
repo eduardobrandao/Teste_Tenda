@@ -7,9 +7,9 @@ import java.util.Objects;
  * Caracteres especiais podem ser recebidos, mas sao removidos antes de persistir/retornar.
  */
 public final class CouponCode {
-  private final String value;
+  public final String value;
 
-  private CouponCode(String value) {
+  public CouponCode(String value) {
     this.value = value;
   }
 

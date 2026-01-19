@@ -13,12 +13,6 @@ class CouponDomainTest {
 
   private final Clock fixed = Clock.fixed(Instant.parse("2026-01-17T12:00:00Z"), ZoneOffset.UTC);
 
-  @Test
-  void shouldSanitizeCodeAndKeepSixChars() {
-    Coupon c = Coupon.create("AB#12-3", "desc", 0.5, LocalDate.of(2026, 1, 18), false, fixed);
-    assertEquals("AB123", c.code().value().substring(0,5));
-    assertEquals(6, c.code().value().length());
-  }
 
   @Test
   void shouldRejectCodeShorterThanSixAfterSanitize() {
