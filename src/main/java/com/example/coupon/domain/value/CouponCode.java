@@ -2,10 +2,7 @@ package com.example.coupon.domain.value;
 
 import java.util.Objects;
 
-/**
- * Alfanumerico com tamanho padrao de 6.
- * Caracteres especiais podem ser recebidos, mas sao removidos antes de persistir/retornar.
- */
+
 public final class CouponCode {
   public final String value;
 
