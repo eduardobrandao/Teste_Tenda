@@ -35,19 +35,6 @@ class CouponAppServiceTest {
   }
 
 
-//  @Test
-//  void createShouldPersistSanitizedCode() {
-//    CouponAppService app = new CouponAppService(repo);
-//    Coupon created = app.create(Coupon.create("AB#12-3", "desc", 1.0, LocalDate.of(2026, 2, 1), true, fixed));
-//
-//    assertNotNull(created.id());
-//    assertEquals(6, created.code().value().length());
-//
-//    var fromDb = repo.findById(created.id()).orElseThrow();
-//    assertEquals(created.code().value(), fromDb.getCode());
-//    assertNull(fromDb.getDeletedAt());
-//  }
-
   @Test
   void deleteShouldSoftDeleteAndPreventSecondDelete() {
     CouponAppService app = new CouponAppService(repo);
